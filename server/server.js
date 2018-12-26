@@ -27,7 +27,7 @@ newTodo.save().then((doc)=>{
 app.listen(3000,()=>{
 	console.log('Server is running at 3000');
 });
-
+module.exports = {app};
 // var newTodo  = new Todo({
 // 	text: 'walk at places',
 // });
